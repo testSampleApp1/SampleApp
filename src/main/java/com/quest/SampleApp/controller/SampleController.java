@@ -24,7 +24,7 @@ public class SampleController {
 	public String init(@RequestParam("param") String param, HttpServletRequest request, HttpServletResponse response) throws Exception{
         try
         { 
-            if ("gfg".equals(ptr)) 
+            if (ptr.equals("gfg")) 
             	ptr = "Match found"; 
             else 
                 ptr = "Match NOT found"; 
